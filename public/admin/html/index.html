@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set JSON Values</title>
+    <link rel="stylesheet" href="/admin/styles.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+    </header>
+    <main>
+        <section>
+            <h2>Set Values</h2>
+            <form id="json-form">
+                <label for="days">Days (comma-separated):</label>
+                <input type="text" id="days" name="days" required>
+
+                <label for="resistance-a">Resistance A:</label>
+                <input type="text" id="resistance-a" name="resistance-a" required>
+
+                <label for="resistance-b">Resistance B:</label>
+                <input type="text" id="resistance-b" name="resistance-b" required>
+
+                <label for="resistance-c">Resistance C:</label>
+                <input type="text" id="resistance-c" name="resistance-c" required>
+
+                <label for="pchange">Population Change:</label>
+                <input type="text" id="result" name="pchange" required>
+                <label for="sideeffects">Side Effects:</label>
+                <input type="text" id="sideeffects" name="sideeffects" required>
+
+                <button type="submit">Enter</button>
+            </form>
+        </section>
+    </main>
+    <script src="/admin/index.js"></script>
+</body>
+</html>

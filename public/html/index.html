@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</head>
+<body style = "overflow-y: scroll;">
+    <header>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+    </header>
+    <main>
+        <section id="data-display">
+            <!-- Data from API will be displayed here -->
+        </section>
+        <section id="table-section">
+            <table id="sortable-table" class="tablesorter">
+                <thead>
+                    <tr>
+                        <th>Cost</th>
+                        <th>Side effect level</th>
+                        <th>Ending result</th>
+                        <th>Time submitted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows will be added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
